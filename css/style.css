@@ -270,7 +270,7 @@ img {
 }
 
 .section-fourth-item {
-  width: calc(1158px-48px / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .section-fourth-title-text {
