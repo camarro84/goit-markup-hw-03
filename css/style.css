@@ -76,7 +76,6 @@ img {
 
 .nav-menu {
   display: flex;
-  list-style-type: none;
   gap: 40px;
 }
 
@@ -92,8 +91,8 @@ img {
   text-decoration: none;
 }
 
-.nav-link a:hover,
-.nav-link a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -126,7 +125,7 @@ img {
   color: #404bbf;
 }
 
-.section-one {
+.section-hero {
   padding: 188px 0;
   text-align: center;
   background: #2e2f42;
@@ -142,7 +141,7 @@ img {
   letter-spacing: 1.12px;
 }
 
-.section-one button {
+.button {
   display: block;
   margin: 0 auto;
   min-width: 169px;
@@ -150,7 +149,7 @@ img {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -160,8 +159,8 @@ img {
   cursor: pointer;
 }
 
-.section-one button:hover,
-.section-one button:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -204,7 +203,7 @@ img {
 }
 
 .section-three {
-  background-color: #f4f4fd;
+  background: #f4f4fd;
 }
 
 .section-three-header {
@@ -220,14 +219,35 @@ img {
 
 .section-three-items {
   display: flex;
-  list-style-type: none;
   gap: 24px;
 }
 
-.section-three-li {
+.section-three-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+}
+
+.team-units {
+  padding: 32px 0;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-profession {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .title-fourth {
